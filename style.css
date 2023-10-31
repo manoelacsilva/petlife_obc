@@ -121,6 +121,16 @@ h2 {
     border-bottom: 1px solid #ff725e;
     border-radius: 0 0 8px 8px;
     margin-top: -8px;
+    padding: 0 24px;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.duvida.ativa .p {
+    height: fit-content;
+    opacity: 1;
     padding: 24px;
 }
 
